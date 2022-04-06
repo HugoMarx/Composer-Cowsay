@@ -1,0 +1,17 @@
+{
+    "name": "hugo_dev/composer_cowsay",
+    "autoload": {
+        "psr-4": {
+            "HugoDev\\ComposerCowsay\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hugo Marx",
+            "email": "marx.hugo@gmail.com"
+        }
+    ],
+    "require": {
+        "gipetto/cowsay": "^1.1"
+    }
+}
